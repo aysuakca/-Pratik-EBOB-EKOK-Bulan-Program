@@ -24,7 +24,7 @@ public class test {
         System.out.print("y2 sayisini giriniz : ");
         int y2 = input.nextInt();
 
-        for ( int i = 1; i <= (n2 * n2); i++) {
+        for ( int i = 1; i <= (y2 * y2); i++) {
             if ( i % y1 == 0 && i % y2 == 0){
                 System.out.println(i);
                 break;
